@@ -1,0 +1,86 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","introduccion"],
+    "path": "pages/intro.html"
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "logica",
+    "title": "1. Lógica",
+    "breadcrumb": ["Inicio","logica"],
+    "path": "pages/1-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "logica",
+        "title": "1.1 Proposiciones",
+        "anchor": "proposiciones"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "logica",
+        "title": "1.2 Tipos de proposiciones",
+        "anchor": "tipos"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "logica",
+        "title": "1.3. Conectores lógicos",
+        "anchor": "conectores"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "logica",
+        "title": "1.4. Valores de verdad",
+        "anchor": "valores"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "fa fa-file-text",
+    "slug": "teoria",
+    "title": "2. Teoría de conjuntos",
+    "breadcrumb": ["Inicio","teoria"],
+    "path": "pages/2-tema.html"
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-file-text",
+    "slug": "potenciacion",
+    "title": "3. Potenciación, radicación y logaritmación",
+    "breadcrumb": ["Inicio","potenciacion"],
+    "path": "pages/3-tema.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "potenciacion",
+        "title": "3.1 Potenciación",
+        "anchor": "potenciacion2"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "potenciacion",
+        "title": "3.2 Radicación",
+        "anchor": "radicacion"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "potenciacion",
+        "title": "3.3. Logartimación",
+        "anchor": "logartimacion"
+      }
+    ]
+  }
+]

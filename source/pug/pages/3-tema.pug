@@ -1,0 +1,491 @@
+.container#potenciacion
+
+    .header-ecored
+
+        h1 3. Potenciación, radicación y logaritmación
+
+    .jumbotron.bg-white
+
+        .subtitulo-guion#potenciacion2
+
+            h2 3.1.	Potenciación
+        
+        .row
+
+            .col-12
+
+                p La potenciación es una operación matemática mediante la cual multiplicamos un número por si mismo cuantas veces nos indique el exponente:
+            
+            .col-12.text-center
+
+                img.img-fluid(src="assets/images/pages/img16.png", style="max-width: 100%")
+
+        .subtitulo-guion.mt-5
+
+            h3 3.1.1. Leyes de los exponentes
+        
+        .row
+
+            .col-12
+
+                p
+                    b Primera ley: 
+                    | la multiplicación de dos cantidades de la misma base, es igual a la misma base y a la suma de sus exponentes:
+        
+        .row.d-flex.justify-content-center
+            
+            .col-6.bg-ecu1
+
+                p.text-center a
+                    sup m
+                    | .a
+                    sup n 
+                    | = a
+                    sup m+n
+        
+            .col-12.mt-3
+
+                p.text-center
+                    b Ejemplo:
+            
+            .col-6.bg-ecu2
+
+                p.text-center 2
+                    sup 2
+                    | .2
+                    sup 3 
+                    | = 2
+                    sup 2+3 
+                    | = 2
+                    sup 5 
+                    | = 2.2.2.2.2 = 32
+        
+        .row.mt-3
+
+            .col-12
+
+                p
+                    b Segunda ley: 
+                    | la división de dos cantidades de la misma base, es igual a tomar la misma base y restar los exponentes
+        
+        .row.d-flex.justify-content-center
+            
+            .col-6.bg-ecu1
+
+                .eq-c.text-center
+                    .fraction
+                        span.fup
+                        i a
+                            sup n
+                        span.bar /
+                        span.fdn
+                        i a
+                            sup m
+                    | = a
+                    sup n-m
+        
+            .col-12.mt-3
+
+                p.text-center
+                    b Ejemplo:
+            
+            .col-6.bg-ecu2
+
+                .eq-c.text-center
+                    .fraction
+                        span.fup
+                        i 6
+                            sup 5
+                        span.bar /
+                        span.fdn
+                        i 6
+                            sup 3
+                    | = 6
+                    sup 5-3 
+                    | = 6
+                    sup 2 
+                    | = 6.6 = 36
+        
+        .row.mt-3
+
+            .col-12
+
+                p
+                    b Tercera ley: 
+                    | si la multiplicación de dos o mas cantidades cualesquiera está elevada a la misma potencia, todos los factores toman el mismo exponente:
+        
+        .row.d-flex.justify-content-center
+            
+            .col-6.bg-ecu1
+
+                p.text-center (a.b)
+                    sup n 
+                    | = a
+                    sup n
+                    |.b
+                    sup n
+        
+            .col-12.mt-3
+
+                p.text-center
+                    b Ejemplo:
+            
+            .col-6.bg-ecu2
+
+                p.text-center (2.3)
+                    sup 3 
+                    | = 2
+                    sup 3
+                    |.3
+                    sup 3
+        
+        .row.mt-3
+
+            .col-12
+
+                p
+                    b Cuarta ley: 
+                    | si la división de dos cantidades esta elevada a la misma potencia, tanto el numerador como el denominador quedan elevados a las misma potencia:
+        
+        .row.d-flex.justify-content-center
+            
+            .col-6.bg-ecu1
+
+                .eq-c.text-center
+                    i
+                    | (
+                    .fraction
+                        span.fup
+                        i a
+                        span.bar /
+                        span.fdn
+                        i a
+                    | )
+                    sup m 
+                    | = 
+                    .fraction
+                        span.fup
+                        i a
+                            sup m
+                        span.bar /
+                        span.fdn
+                        i a
+                            sup m
+        
+            .col-12.mt-3
+
+                p.text-center
+                    b Ejemplo:
+            
+            .col-6.bg-ecu2
+
+                .eq-c.text-center
+                    i
+                    | (
+                    .fraction
+                        span.fup
+                        i 5
+                        span.bar /
+                        span.fdn
+                        i 3
+                    | )
+                    sup 2 
+                    | = 
+                    .fraction
+                        span.fup
+                        i 5
+                            sup 2
+                        span.bar /
+                        span.fdn
+                        i 3
+                            sup 2
+        
+        .row.mt-3
+
+            .col-12
+
+                p
+                    b Quinta ley: 
+                    | si una expresión exponencial se eleva a una potencia, se toma la misma base y se multiplican los exponentes:
+        
+        .row.d-flex.justify-content-center
+            
+            .col-6.bg-ecu1
+
+                p.text-center (a
+                    sup m
+                    | )
+                    sup n 
+                    | = (a)
+                    sup m.n
+        
+            .col-12.mt-3
+
+                p.text-center
+                    b Ejemplo:
+            
+            .col-6.bg-ecu2
+
+                p.text-center (3
+                    sup 2
+                    | )
+                    sup 4 
+                    | = (3)
+                    sup 2.4 
+                    | = 3
+                    sup 8
+        
+        .row.mt-3
+
+            .col-12
+
+                p
+                    b Sexta ley: 
+                    | toda expresión con exponente negativo, es igual a su recíproco:
+        
+        .row.d-flex.justify-content-center
+            
+            .col-6.bg-ecu1
+
+                .eq-c.text-center
+                    i
+                    | (a)
+                    sup -m 
+                    | = (
+                    .fraction
+                        span.fup
+                        i 1
+                        span.bar /
+                        span.fdn
+                        i a
+                            sup m
+                    | )
+        
+            .col-12.mt-3
+
+                p.text-center
+                    b Ejemplo:
+            
+            .col-6.bg-ecu2
+
+                .eq-c.text-center
+                    i
+                    | (5)
+                    sup -2 
+                    | = (
+                    .fraction
+                        span.fup
+                        i 1
+                        span.bar /
+                        span.fdn
+                        i 5
+                            sup 2
+                    | ) = (
+                    .fraction
+                        span.fup
+                        i 1
+                        span.bar /
+                        span.fdn
+                        i 25
+                    | )
+        
+        .row.mt-3
+
+            .col-12
+
+                p
+                    b Séptima ley: 
+                    | toda cantidad elevada a la potencia cero, es igual a 1.
+        
+        .row.d-flex.justify-content-center
+            
+            .col-6.bg-ecu1
+
+                p.text-center b
+                    sup 0
+                    | = 1
+        
+            .col-12.mt-3
+
+                p.text-center
+                    b Ejemplo:
+            
+            .col-6.bg-ecu2
+
+                p.text-center (1.000.000.000)
+                    sup 0
+                    | = 1
+        
+        .row.mt-3
+
+            .col-12
+
+                p
+                    b Octava ley: 
+                    | un número elevado a una potencia fraccionaria, es igual a la raíz de ese número:
+        
+        .row.d-flex.justify-content-center
+            
+            .col-6.bg-ecu1
+
+                .eq-c.text-center
+                    i (a)
+                        sup n/m 
+                    | = 
+                    sup m
+                    span.radical √
+                        i a
+                        sup n
+        
+            .col-12.mt-3
+
+                p.text-center
+                    b Ejemplo:
+            
+            .col-6.bg-ecu2
+
+                .eq-c.text-center
+                    i (10) 
+                    sup 2/3 
+                    | = 
+                    sup 3
+                    span.radical √
+                        i 10 
+                        sup 2
+        
+        .subtitulo-guion.mt-5
+
+            h3 3.1.2. Manejo de los Signos en las Potencias
+        
+        .row
+
+            .col-12
+
+                p En la Tabla 10, se observa que en las potencias se cumple la ley algebraica de los signos:
+
+                ul
+                    li.mb-3 ( + ) . ( - ) = ( - )
+                    li.mb-3 ( + ) . ( + ) = ( + )
+                    li ( - ) . ( - ) = ( + )
+        
+        .row.mx-0.justify-content-center
+
+            .col-10
+
+                table.table.table-bordered.table-striped
+                    thead.thead-dark
+                        tr
+                            th.table1 Base
+                            th.table1 Exponente
+                            th.table1 Potencia
+                            th.table1 Ejemplo
+
+                    tbody
+                        tr
+                            td.table2 Positiva ( + )
+                            td.table2 Par
+                            td.table2 ( + )
+                            td.table2 4
+                                sup 2 
+                                | = 16
+                        tr
+                            td.table3 Positiva ( + )
+                            td.table3 Impar
+                            td.table3 ( - )
+                            td.table3 4
+                                sup 3 
+                                | = 64
+                        tr
+                            td.table2 Negativa ( - )
+                            td.table2 Par
+                            td.table2 ( + )
+                            td.table2 -(4)
+                                sup 2 
+                                | = (-4).(-4) = 16
+                        tr
+                            td.table3 Negativa ( - )
+                            td.table3 Impar
+                            td.table3 ( - )
+                            td.table3 -(4)
+                                sup 3 
+                                | = (-4).(-4).(-4) = -64
+
+    #radicacion
+    
+    .jumbotron.bg-white
+
+        .subtitulo-guion
+
+            h2 3.2.	Radicación
+        
+        .row
+
+            .col-12
+
+                p La radicación es el proceso para hallar raices de un número a. Es otra forma de expresar una potencia, por ello las propiedades de la potenciación se cumplen también en la radicación.
+            
+            .col-12.text-center
+
+                img.img-fluid(src="assets/images/pages/img3.svg", style="max-width: 80%")
+            
+            .col-12.mt-4
+
+                p Lo anterior quiere decir que las leyes de los exponentes también se aplican a los radicales, veamos algunos ejemplos que nos presenta Aguilar (2015), pp.92.
+
+            .col-12.text-center
+
+                img.img-fluid(src="assets/images/pages/img4.svg", style="max-width: 80%")
+
+            .col-12.mt-4
+
+                p Veamos ejemplos que aplican las anteriores leyes:
+            
+            .col-12.text-center
+
+                img.img-fluid(src="assets/images/pages/img17.png", style="max-width: 80%")
+    
+    #logartimacion
+    
+    .jumbotron.bg-white
+
+        .subtitulo-guion
+
+            h2 3.3. Logartimación
+        
+        .row
+
+            .col-12
+
+                p Un logaritmo es el exponente al que hay que elevar un número positivo para que de como resultado una cantidad determinada. Al igual que la radicación se relaciona con la potenciación, veamos:
+            
+            .col-12.text-center
+
+                img.img-fluid(src="assets/images/pages/img18.png", style="max-width: 80%")
+            
+            .col-12.mt-4
+
+                p Como se observa en la figura anterior logaritmo es el exponente (b) al cual hay que elevar la base (a) para obtener dicho número (c) y actúan como tales, siguiendo las mismas leyes de los exponentes enunciadas anteriormente, por ejemplo:
+
+                p.ml-3 log (a.b) = log a + log b
+                p.ml-3 log (a/b) = log a – log b
+                p.ml-3 log ab = b. log a
+                p.ml-3 log b√a = log a / b
+
+                p Los logaritmos se emplean para simplificar cálculos, representar números que son muy grandes o muy pequeños. 
+
+                p Los logaritmos aparecieron para facilitar la solución de problemas de aritmética y geometría, sustituyendo la multiplicación por la adición y la división por la sustracción.
+
+                p Veamos  a continuación un video que podrá aclarar tus dudas:
+
+    .card
+
+        .embed-responsive.embed-responsive-16by9
+            iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/-6XVI_xzLYw', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+    
+    .jumbotron.bg-white
+
+        .row
+
+            .col-12.text-center
+
+                img.img-fluid(src="assets/images/pages/img19.png", style="max-width: 80%")
